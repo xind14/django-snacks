@@ -1,29 +1,27 @@
+# Lab: Class 26 - Intro to Django
 
-# LAB - Class xx
-## Project: Project Name Here
-### Author: Student/Group Name
+## Author: Xin Deng
 
 ### Links and Resources
-- [Back-end Server URL] # Fill in when applicable
-- [Front-end Application URL] # Fill in when applicable
 
-### Setup
-- Create a `.env` file with the following requirements:
-  - PORT - Port Number
-  - DATABASE_URL - URL to the running Postgres instance/db
+- chatGPT
+- [Class 26 Demo](https://github.com/codefellows/seattle-code-python-401d24/tree/main/class-26/demo)
 
-### How to Initialize/Run Your Application
-- Example: `python main.py`
+### Overview - Django
 
-### How to Use Your Library
-- Provide instructions here if applicable
+This is a project to build out a small, but functional, multi page web site using Django.
 
-### Tests
+#### Version 1.0
+
+Build 1.0 Feature Tasks
+
+1. Create web site in Django with 2 pages: home page, about page
+2. Configure project to use TailwindCSS
+
+### How to Initialize/Run Application
+
+- `python manage.py runserver`
+
 #### How to Run Tests
-- Describe how to run tests
 
-#### Tests of Note
-- Any noteworthy information about the tests
-
-#### Incomplete Tests
-- Describe any tests that were not completed or skipped
+- `python manage.py test`
