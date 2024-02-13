@@ -8,21 +8,23 @@ class HomePageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context["snacks"] = [
             {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SoilRake.jpg",
-                "title": "Rake",
-                "description": "Better than a shovel or a broom for leaves. Like a pitch fork but less pokey.",
-                "reference_url": "https://en.wikipedia.org/wiki/Rake_(tool)"
-            }, {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Soup_Spoon.jpg",
-                "title": "Spoon",
-                "description": "An eating utensil. Better for soup and cereal than a fork.",
-                "reference_url": "https://en.wikipedia.org/wiki/Spoon"
-            }, {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Spoon_Piknik_i_Parken_2017_%28175930%29.jpg/600px-Spoon_Piknik_i_Parken_2017_%28175930%29.jpg",
-                "title": "Spoon",
-                "description": "Spoon is also an American rock band from Austin, Texas.",
-                "reference_url": "https://en.wikipedia.org/wiki/Spoon_(band)"
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/French_Fries.JPG/250px-French_Fries.JPG",
+                "title": "French Fries",
+                "description": "French fries, or simply fries, are pieces of potato that have been deep-fried.",
+                "reference_url": "https://en.wikipedia.org/wiki/French_fries"
             },
+            {
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Khaep_mu.jpg/220px-Khaep_mu.jpg",
+                "title": "Pork Rind",
+                "description": "Pork rind is the culinary term for the skin of a pig. It can be used in many different ways.",
+                "reference_url": "https://en.wikipedia.org/wiki/Pork_rind"
+            },
+            {
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BrezelnSalz02_%28cropped%29.JPG/250px-BrezelnSalz02_%28cropped%29.JPG",
+                "title": "Pretzel",
+                "description": "A pretzel is a type of baked bread product made from dough most commonly shaped into a twisted knot.",
+                "reference_url": "https://en.wikipedia.org/wiki/Pretzel"
+            }
         ]
 
         return context
